@@ -1,56 +1,144 @@
-# 🤖 Documentación del Uso de Inteligencia Artificial
+# 📄 Documentación del uso de Inteligencia Artificial
 
-## 📌 Modelo utilizado
-Se utilizó ChatGPT (modelo GPT-5.3) para apoyar el desarrollo del proyecto.
+## 🧠 Herramienta utilizada
 
----
+Durante el desarrollo de este proyecto se utilizó la herramienta:
 
-## 🧠 Prompts utilizados
+* **ChatGPT (OpenAI)**
 
-1. "Crear un gestor de tareas con HTML, CSS y JavaScript tipo Kanban"
-
-2. "Mejorar el diseño CSS con variables, responsive y efectos visuales"
-
-3. "Optimizar el código JavaScript separando funciones y buenas prácticas"
-
-4. "Agregar estilos para mejorar la interfaz del formulario"
+Esta se empleó como apoyo para resolver dudas técnicas, mejorar el diseño de la interfaz y detectar errores durante la construcción del sistema.
 
 ---
 
-## 💬 Respuestas de la IA
+## ⚙️ Forma de uso de la IA
 
-La IA proporcionó:
-- Estructura base del HTML (header, formulario, kanban)
-- Estilos CSS con variables y diseño responsive
-- Código JavaScript para:
-  - Agregar tareas
-  - Mover tareas entre columnas
-  - Eliminar tareas
-  - Actualizar contadores
+La inteligencia artificial fue utilizada como una herramienta de apoyo en distintas etapas del desarrollo. Principalmente se utilizó para:
 
----
+* Detectar y corregir errores en el código
+* Mejorar la apariencia visual del sistema
+* Optimizar funcionalidades existentes
+* Resolver problemas relacionados con rutas de archivos
+* Proponer nuevas funcionalidades
 
-## 🔧 Ajustes manuales realizados
-
-Se realizaron modificaciones al código generado por la IA:
-
-- Se mejoró la estructura semántica del HTML (uso de `section`, `article`, etc.)
-- Se personalizó el diseño CSS (colores, tamaños, alineación del logo)
-- Se agregaron clases para mejorar la visualización de los campos del formulario
-- Se reorganizó el código JavaScript para hacerlo más limpio y entendible
+Es importante destacar que todo el contenido generado fue revisado, ajustado y adaptado manualmente para asegurar su correcto funcionamiento dentro del proyecto.
 
 ---
 
-🧩 Reflexión crítica
+## 🧱 1. Creación de la estructura HTML
 
-El uso de la inteligencia artificial permitió acelerar el desarrollo del proyecto, facilitando la generación de código base.
+**Solicitud realizada:**
 
-Sin embargo, fue necesario comprender el funcionamiento del código para poder adaptarlo a los requerimientos de la rúbrica, corregir errores y mejorar la calidad del resultado final.
+> "Crea la estructura HTML de un gestor de tareas tipo Kanban con formulario y columnas"
 
-La IA fue una herramienta de apoyo, pero no reemplazó el aprendizaje ni la toma de decisiones del desarrollo.
+**Aporte de la IA:**
+Se generó una estructura base que incluía:
 
+* Encabezado principal
+* Formulario de ingreso de tareas
+* Tablero organizado por columnas
+* Pie de página
 
+**Ajustes realizados:**
+Posteriormente, se realizaron mejoras manuales para cumplir con los requisitos del proyecto:
 
-📅 Fecha
+* Uso de etiquetas semánticas
+* Mejora en los labels de los formularios
+* Inclusión de campos obligatorios
+* Organización del contenido
 
-Abril 2026
+---
+
+## 🎨 2. Corrección y mejora de estilos CSS
+
+Durante las primeras pruebas se detectaron problemas como:
+
+* Columnas desordenadas
+* Tarjetas mal alineadas
+* Botones poco organizados
+* Diseño visual poco atractivo
+
+**Solicitud realizada:**
+
+> "Corrige mi CSS y hazlo más profesional"
+
+**Resultado obtenido:**
+La IA ayudó a:
+
+* Reorganizar la estructura visual
+* Mejorar la paleta de colores
+* Incorporar sombras y efectos
+* Optimizar el diseño de botones
+* Adaptar el sistema a dispositivos móviles (responsive)
+
+---
+
+## 🖼️ 3. Problemas con imágenes y rutas
+
+Se presentaron inconvenientes con la visualización de imágenes como el logo y el fondo.
+
+**Solicitud realizada:**
+
+> "No aparece mi imagen en CSS"
+
+**Solución aplicada:**
+Se corrigieron las rutas de acceso a los archivos, considerando:
+
+* Carpeta de recursos/imágenes
+* Favicon
+* Logo principal
+
+---
+
+## ⚡ 4. Desarrollo en JavaScript
+
+La IA también fue utilizada para mejorar la lógica del sistema.
+
+**Funcionalidades implementadas:**
+
+* Agregar tareas
+* Mover tareas entre columnas
+* Marcar tareas como completadas
+* Eliminar tareas
+* Contadores automáticos
+
+---
+
+## 🚀 5. Mejoras adicionales del sistema
+
+Con el objetivo de enriquecer el proyecto, se incorporaron nuevas funcionalidades.
+
+**Solicitud realizada:**
+
+> "Agrega mejoras extras para hacer el proyecto más completo"
+
+**Mejoras implementadas:**
+
+* Historial de tareas eliminadas
+* Posibilidad de reactivar tareas
+* Alertas según fecha límite
+* Notificación de tareas con entrega el mismo día
+* Scroll interno en columnas con gran cantidad de tareas
+
+**Ajustes manuales:**
+Durante esta etapa fue necesario corregir:
+
+* Errores en el manejo de fechas
+* Problemas en el historial de tareas
+* Detalles de diseño
+* Organización de carpetas
+* Pruebas de funcionamiento
+
+---
+
+## 🧩 Reflexión final
+
+El uso de inteligencia artificial permitió agilizar el desarrollo del proyecto y facilitar la resolución de problemas técnicos.
+
+Sin embargo, su uso no reemplazó el trabajo del desarrollador, ya que fue necesario:
+
+* Comprender el código generado
+* Probar cada funcionalidad
+* Detectar y corregir errores
+* Adaptar las soluciones a los requerimientos del proyecto
+
+En conclusión, la IA fue utilizada como una herramienta de apoyo al aprendizaje, contribuyendo al desarrollo del proyecto sin sustituir el trabajo propio.
