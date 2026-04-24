@@ -24,3 +24,9 @@ Permite gestionar tareas mediante un tablero tipo **Kanban**.
 ---
 
 ## 📂 Estructura del proyecto
+/proyecto
+│── index.html
+│── style.css
+│── responsive.css
+│── script.js
+│── /img
