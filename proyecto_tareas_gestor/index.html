@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tareas</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/logo.png">
+</head>
+
+<body>
+
+<header>
+    <div class="nav">
+        <img src="assets/img/logo.png" class="logo">
+        <h1>Gestor de Tareas</h1>
+    </div>
+</header>
+
+<main>
+
+    <!-- FORMULARIO -->
+    <section>
+        <h2>Agregar Tarea</h2>
+
+        <form id="form-tarea">
+
+            <div class="campo">
+                <label>Descripción:</label>
+                <textarea id="descripcion" required></textarea>
+            </div>
+
+            <div class="campo">
+                <label>Prioridad:</label>
+                <select id="prioridad" required>
+                    <option value="">Seleccionar...</option>
+                    <option value="alta">Alta</option>
+                    <option value="media">Media</option>
+                    <option value="baja">Baja</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Fecha límite:</label>
+                <input type="date" id="fecha" required>
+            </div>
+
+            <button type="submit">Agregar Tarea</button>
+
+        </form>
+    </section>
+
+    <!-- KANBAN -->
+    <section class="kanban">
+
+        <div class="columna" id="pendientes">
+            <h3>Pendientes <span class="contador">0</span></h3>
+            <div class="tareas-container"></div>
+        </div>
+
+        <div class="columna" id="en-progreso">
+            <h3>En Progreso <span class="contador">0</span></h3>
+            <div class="tareas-container"></div>
+        </div>
+
+        <div class="columna" id="completadas">
+            <h3>Completadas <span class="contador">0</span></h3>
+            <div class="tareas-container"></div>
+        </div>
+
+    </section>
+
+    <!-- HISTORIAL -->
+    <section class="historial">
+        <h2>Historial</h2>
+        <div id="historial-container"></div>
+    </section>
+
+</main>
+
+<script src="assets/js/script.js"></script>
+
+</body>
+</html>
