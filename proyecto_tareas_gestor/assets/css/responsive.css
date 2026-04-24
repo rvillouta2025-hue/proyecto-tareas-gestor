@@ -1,0 +1,31 @@
+/* 📱 Celulares */
+@media (max-width: 600px) {
+
+}
+
+/* 📲 Tablets */
+@media (max-width: 768px) {
+
+}
+
+/* 💻 Escritorio grande */
+@media (min-width: 1024px) {
+
+}
+@media (max-width: 768px) {
+
+  .contenedor {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .contenedor {
+    max-width: 900px;
+    margin: auto;
+  }
+
+}
